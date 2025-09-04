@@ -6,24 +6,24 @@ participants: []
 
 # Meeting: {{title}}
 
-## Summery
-Kurze Zusammenfassung: wichtigste Entscheidungen, nächste Schritte.
+## Summary
+Short overview: key decisions, next steps.
 
 ## To-dos
-- [ ] Aufgabe 1 @Person
-- [ ] Aufgabe 2 @Person
+- [ ] Action 1 @Person
+- [ ] Action 2 @Person
 
-## Inhalte
-### Thema 1
-Notizen
+## Content
+### Topic 1
+Notes...
 
-### Thema 2
-Notizen
+### Topic 2
+Notes...
 
-## Entscheidungen
-- Entscheidung 1
-- Entscheidung 2
+## Decisions
+- Decision 1
+- Decision 2
 
-## Offene Fragen
-- Frage 1
-- Frage 2
+## Open Questions
+- Question 1
+- Question 2

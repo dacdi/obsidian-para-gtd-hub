@@ -1,109 +1,107 @@
 
-```markdown
-# PARA Guide – Mein System
+# PARA Guide – My System
 
-Diese Notiz erklärt die Grundstruktur meines Vaults und wie ich Outlook & Todoist daran anlehne.  
-👉 Ziel: Ein konsistentes, zukunftssicheres System für Projekte, Bereiche, Wissen und Archiv.
-
----
-
-## 📂 Struktur
-
-```
-
-/Projects → zeitlich begrenzte Vorhaben mit klarem Ziel/Ende  
-/Areas → dauerhafte Verantwortlichkeiten (Rollen, Pflichten)  
-/Resources → Wissensspeicher, Vorlagen, Kontakte, Meetings  
-/Archive → Abgeschlossenes (Projekte, alte Dateien)
-
-```
+This note explains the basic structure of my vault and how I align Outlook & Todoist with it.  
+👉 Goal: A consistent, future-proof system for Projects, Areas, Resources, and Archive.
 
 ---
 
-## 🔑 Regeln
+## 📂 Structure
+
+```
+
+/Projects  → time-bound initiatives with a clear goal/end
+/Areas     → ongoing responsibilities (roles, duties)
+/Resources → knowledge base, templates, contacts, meetings
+/Archive   → completed projects, old files
+
+```
+
+---
+
+## 🔑 Rules
 
 ### Projects
-- Alles mit **Deadline oder klarer Output**.  
-- Beispiele:  
+- Everything with a **deadline or clear output**.  
+- Examples:  
   - `KRITIS_BlackoutResilienz`  
-  - `IMED_Lehrgang2025`  
-  - `Lehre_NRI3.4_Umwelt_2025`  
-- Struktur innerhalb eines Projekts:  
+  - `IMED_Training2025`  
+  - `Teaching_NRI3.4_Environment_2025`  
+- Internal structure of a project:  
 ```
 
-/01_Projektsteuerung  
-/02_Literatur  
-/03_Methoden / Unterrichte  
-/04_Daten / Teilnehmende  
-/05_Besprechungen  
-/06_Publikation  
-/99_Archiv
+/01\_Management
+/02\_Literature
+/03\_Methods / Classes
+/04\_Data / Participants
+/05\_Meetings
+/06\_Publication
+/99\_Archive
 
 ```
 
 ### Areas
-- Dauerhafte Themen/Rollen ohne klares Ende.  
-- Beispiele:  
-- `Lehre_allgemein`  
-- `Verwaltung_IT`  
-- `Job_Administration` (Vertrag, Stunden, Urlaub)  
-- `IMED_Rolle` (Jahresplanung, wiederkehrende Aufgaben)  
+- Ongoing themes/roles without a defined end.  
+- Examples:  
+  - `Teaching_general`  
+  - `Administration_IT`  
+  - `Job_Administration` (contract, hours, vacation)  
+  - `IMED_Role` (annual planning, recurring tasks)  
 
 ### Resources
-- Alles, was **quer genutzt** oder als **Wissensbasis** dient.  
-- Beispiele:  
-- `Konferenzen` (Listen, Planung)  
-- `Kontakte`  
-- `Prompt_Bibliothek`  
-- `Vorlagen & Templates`  
-- `Meetings` (zentrale Ablage, mit Tags wie #Kritis, #IMED)  
+- Everything that is **cross-cutting** or serves as a **knowledge base**.  
+- Examples:  
+  - `Conferences` (lists, planning)  
+  - `Contacts`  
+  - `Prompt_Library`  
+  - `Templates`  
+  - `Meetings` (central storage, tagged e.g. #Kritis, #IMED)  
 
 ### Archive
-- Endlager für Abgeschlossenes.  
-- Ganze Projekte oder alte Versionen.  
-- Regel: während ein Projekt läuft → nutze den internen Ordner `/99_Archiv`;  
-wenn abgeschlossen → gesamter Projektordner wandert nach `/Archive`.  
+- Final storage for completed work.  
+- Whole projects or older versions.  
+- Rule: while a project is ongoing → use the internal `/99_Archive` folder;  
+  once completed → move the entire project folder to `/Archive`.  
 
 ---
 
 ## 📧 Outlook
-- Abbild nur von **Projects** und **Areas**.  
-- Gleiche Namen wie im Vault.  
-- Inbox = Eingang, dann sortieren:  
-- Projektmail → Projektordner  
-- Dauerhaftes Thema → Area-Ordner  
-- Alles andere → löschen oder Archiv  
+- Mirrors only **Projects** and **Areas**.  
+- Same names as in the vault.  
+- Inbox = capture; then sort:  
+  - Project email → Project folder  
+  - Area-related email → Area folder  
+  - Everything else → delete or archive  
 
 ---
 
 ## ✅ Todoist
-- Gleiche Liste wie im Vault (Projects + Areas).  
-- Keine Resources → die bleiben in Obsidian.  
-- Archive = abgeschlossene Projekte.  
-- Labels: `@Warten_auf`, `@Besprechung` etc.  
+- Same list as in the vault (Projects + Areas).  
+- No Resources → they stay in Obsidian.  
+- Archive = completed projects.  
+- Labels: `@Waiting_for`, `@Meeting`, etc.  
 
 ---
 
-## 📝 Dateinamen
-- Meetings, Aufgaben, Versionen → mit Datum:  
-`YYYY-MM-DD_Titel.md`  
-- Dauerhafte Notizen → nur Titel:  
-`Kontakt_JanWillem_SiSKIN.md`  
-- Einheitlich mit `_` getrennt.  
+## 📝 File Naming
+- Meetings, tasks, versions → with date:  
+  `YYYY-MM-DD_Title.md`  
+- Permanent notes → title only:  
+  `Contact_JanWillem_SiSKIN.md`  
+- Consistently separated with `_`.  
 
 ---
 
 ## 💡 Meetings
-- Immer in `/Resources/Meetings` ablegen.  
-- Eine Datei pro Gespräch, auch wenn mehrere Themen.  
-- Mit Tags zuordnen (#Kritis, #IMED, #Urlaub).  
-- In Projekten/Areas werden Meetings über **MOCs** sichtbar (Dataview-Abfragen).  
+- Always stored in `/Resources/Meetings`.  
+- One file per conversation, even if multiple topics.  
+- Assign with tags (#Kritis, #IMED, #Vacation).  
+- In Projects/Areas, meetings are displayed via **MOCs** (Dataview queries).  
 
 ---
 
-👉 Dieses Setup ist **mein Master-System**.  
-Neue Projekte → in `/Projects`.  
-Dauerhaftes → in `/Areas`.  
-Wissen → in `/Resources`.  
-Abgeschlossenes → in `/Archive`.
-```
+👉 This setup is **my master system**.  
+New projects → `/Projects`.  
+Ongoing responsibilities → `/Areas`.  
+Knowledge → `/Resources`.  
+Completed work → `/Archive`.
