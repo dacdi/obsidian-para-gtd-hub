@@ -4,7 +4,7 @@
 // DataviewJS-Snippet für Projekt-MOCs (PARA/GTD-ready)
 // Verwendung in Obsidian: kompletten Inhalt in einen ```dataviewjs```-Block kopieren.
 
-const MEETINGS_FOLDER_DEFAULT = "03_Resources/Meetings";
+const MEETINGS_FOLDER_DEFAULT = "Resources/Meetings";
 
 /**
  * Rendert einen Projekt-MOC:
