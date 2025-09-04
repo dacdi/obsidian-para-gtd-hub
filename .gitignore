@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Obsidian/Editor
+.obsidian/
+.vscode/
+.idea/
+
+# Sonstiges
+Thumbs.db
